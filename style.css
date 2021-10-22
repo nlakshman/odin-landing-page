@@ -1,9 +1,51 @@
 body {
 display: flex;
 flex-direction: column;
+margin: 0;
+
 }
 
-.header {
+.header, .footer {
 display: flex;
-flex-direction: row;
+flex-direction: column;
+background-color: #1F2937;
+color: #F9FAF8;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 12px;
+}
+
+.left {
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    flex-direction: row;
+    gap: 8px
+}
+
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+.placeholder {
+    width: 400px;
+    height: 100px;
 }
